@@ -49,6 +49,17 @@ public class PainterController {
     // instance variables for managing Painter state
     private PenSize radius = PenSize.MEDIUM;        // radius of circle
     private Paint brushColor = Color.BLACK;        // radius of circle
+    
+    public void initialize() {
+        blackRadioButton.setUserData(Color.BLACK);
+        redRadioButton.setUserData(Color.RED);
+        greenRadioButton.setUserData(Color.GREEN);
+        blueRadioButton.setUserData(Color.BLUE);
+        
+        smallRadioButton.setUserData(PenSize.SMALL);
+        mediumRadioButton.setUserData(PenSize.MEDIUM);
+        largeRadioButton.setUserData(PenSize.LARGE);
+    }
 
     @FXML
     void blackRadioButtonSelected(ActionEvent event) {
