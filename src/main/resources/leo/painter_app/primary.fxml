@@ -54,8 +54,8 @@
                   </VBox>
                </content>
             </TitledPane>
-            <Button fx:id="undoButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="108.0" text="Undo" />
-            <Button fx:id="clearButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="108.0" text="Clear" />
+            <Button fx:id="undoButton" mnemonicParsing="false" onAction="#undoButtonPressed" prefHeight="25.0" prefWidth="108.0" text="Undo" />
+            <Button fx:id="clearButton" mnemonicParsing="false" onAction="#clearButtonPressed" prefHeight="25.0" prefWidth="108.0" text="Clear" />
          </children>
       </VBox>
    </left>
