@@ -5,6 +5,8 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
 
 public class PainterController {
 
@@ -43,6 +45,10 @@ public class PainterController {
 
     @FXML
     private Button undoButton;
+    
+    // instance variables for managing Painter state
+    private PenSize radius = PenSize.MEDIUM;        // radius of circle
+    private Paint brushColor = Color.BLACK;        // radius of circle
 
     @FXML
     void blackRadioButtonSelected(ActionEvent event) {
