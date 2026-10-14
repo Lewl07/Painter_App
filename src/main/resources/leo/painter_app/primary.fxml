@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
@@ -22,12 +23,25 @@
          <children>
             <TitledPane prefHeight="200.0" prefWidth="200.0" text="Drawing Color">
                <content>
-                  <VBox spacing="8.0" />
+                  <VBox spacing="8.0">
+                     <children>
+                        <RadioButton mnemonicParsing="false" text="Black" />
+                        <RadioButton mnemonicParsing="false" text="Red" />
+                        <RadioButton mnemonicParsing="false" text="Green" />
+                        <RadioButton mnemonicParsing="false" text="Blue" />
+                     </children>
+                  </VBox>
                </content>
             </TitledPane>
             <TitledPane prefHeight="200.0" prefWidth="200.0" text="Pen Size">
                <content>
-                  <VBox spacing="8.0" />
+                  <VBox spacing="8.0">
+                     <children>
+                        <RadioButton mnemonicParsing="false" text="Small" />
+                        <RadioButton mnemonicParsing="false" text="Medium" />
+                        <RadioButton mnemonicParsing="false" text="Large" />
+                     </children>
+                  </VBox>
                </content>
             </TitledPane>
          </children>
