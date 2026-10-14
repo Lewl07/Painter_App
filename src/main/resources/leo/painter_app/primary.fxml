@@ -22,12 +22,12 @@
          <children>
             <TitledPane prefHeight="200.0" prefWidth="200.0" text="Drawing Color">
                <content>
-                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="8.0" />
+                  <VBox spacing="8.0" />
                </content>
             </TitledPane>
             <TitledPane prefHeight="200.0" prefWidth="200.0" text="Pen Size">
                <content>
-                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="8.0" />
+                  <VBox spacing="8.0" />
                </content>
             </TitledPane>
          </children>
