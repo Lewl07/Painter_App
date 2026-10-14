@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
@@ -18,6 +19,10 @@
          <BorderPane.margin>
             <Insets right="8.0" />
          </BorderPane.margin>
+         <children>
+            <TitledPane prefHeight="200.0" prefWidth="200.0" text="Drawing Color" />
+            <TitledPane prefHeight="200.0" prefWidth="200.0" text="Pen Size" />
+         </children>
       </VBox>
    </left>
    <center>
