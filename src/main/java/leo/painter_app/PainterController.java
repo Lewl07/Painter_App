@@ -41,6 +41,18 @@ public class PainterController {
         mediumRadioButton.setUserData(PenSize.MEDIUM);
         largeRadioButton.setUserData(PenSize.LARGE);
     }
+    
+    @FXML
+    void drawingAreaMouseDragged(MouseEvent event) {
+        Circle circle = new Circle(
+                event.getX(),
+                event.getY(),
+                radius.getRadius(),
+                brushColor
+        );
+        
+        drawingAreaPane.getChildren().add(circle);
+    }
 
     @FXML
     void blackRadioButtonSelected(ActionEvent event) {
@@ -60,18 +72,6 @@ public class PainterController {
     @FXML
     void blueRadioButtonSelected(ActionEvent event) {
 
-    }
-
-    @FXML
-    void drawingAreaMouseDragged(MouseEvent event) {
-        Circle circle = new Circle(
-                event.getX(),
-                event.getY(),
-                radius.getRadius(),
-                brushColor
-        );
-        
-        drawingAreaPane.getChildren().add(circle);
     }
 
     @FXML
