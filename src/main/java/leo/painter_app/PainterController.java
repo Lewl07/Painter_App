@@ -59,20 +59,9 @@ public class PainterController {
         brushColor = (Color) colorToggleGroup.getSelectedToggle().getUserData();
 }    
 
-
     @FXML
-    void smallRadioButtonSelected(ActionEvent event) {
-
-    }
-
-    @FXML
-    void mediumRadioButtonSelected(ActionEvent event) {
-
-    }
-    
-    @FXML
-    void largeRadioButtonSelected(ActionEvent event) {
-
+    void sizeRadioButtonSelected(ActionEvent event) {
+        radius = (PenSize) sizeToggleGroup.getSelectedToggle().getUserData();
     }
 
     @FXML
