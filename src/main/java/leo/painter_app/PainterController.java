@@ -1,3 +1,5 @@
+package leo.painter_app;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -75,7 +77,7 @@ public class PainterController {
     
     @FXML
     void clearButtonPressed(ActionEvent event) {
-        drawingAreaPane.getChildren().removeAll();
+        drawingAreaPane.getChildren().clear();
     }
     
     private enum PenSize {
