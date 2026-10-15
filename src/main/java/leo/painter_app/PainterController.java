@@ -29,7 +29,7 @@ public class PainterController {
 
     // instance variables for managing Painter state
     private PenSize radius = PenSize.MEDIUM;        // radius of circle
-    private Paint brushColor = Color.BLACK;        // radius of circle
+    private Paint brushColor = Color.BLACK;        // color of the circle
     
     public void initialize() {
         blackRadioButton.setUserData(Color.BLACK);
