@@ -66,7 +66,11 @@ public class PainterController {
 
     @FXML
     void undoButtonPressed(ActionEvent event) {
-
+        int count = drawingAreaPane.getChildren().size();
+        
+        if (count > 0) {
+            drawingAreaPane.getChildren().remove(count - 1);
+        }
     }
     
     @FXML
