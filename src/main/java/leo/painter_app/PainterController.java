@@ -75,7 +75,7 @@ public class PainterController {
     
     @FXML
     void clearButtonPressed(ActionEvent event) {
-
+        drawingAreaPane.getChildren().removeAll();
     }
     
     private enum PenSize {
