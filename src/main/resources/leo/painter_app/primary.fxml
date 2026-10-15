@@ -31,8 +31,8 @@
                               <ToggleGroup fx:id="colorToggleGroup" />
                            </toggleGroup>
                         </RadioButton>
-                        <RadioButton fx:id="redRadioButton" mnemonicParsing="false" onAction="#redRadioButtonSelected" text="Red" toggleGroup="$colorToggleGroup" />
-                        <RadioButton fx:id="greenRadioButton" mnemonicParsing="false" onAction="#greenRadioButtonSelected" text="Green" toggleGroup="$colorToggleGroup" />
+                        <RadioButton fx:id="redRadioButton" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="Red" toggleGroup="$colorToggleGroup" />
+                        <RadioButton fx:id="greenRadioButton" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="Green" toggleGroup="$colorToggleGroup" />
                         <RadioButton fx:id="blueRadioButton" mnemonicParsing="false" onAction="#colorRadioButtonSelected" text="Blue" toggleGroup="$colorToggleGroup" />
                      </children>
                   </VBox>
