@@ -48,12 +48,17 @@ public class PainterController {
     }
 
     @FXML
-    void blueRadioButtonSelected(ActionEvent event) {
+    void redRadioButtonSelected(ActionEvent event) {
 
     }
-
+    
     @FXML
-    void clearButtonPressed(ActionEvent event) {
+    void greenRadioButtonSelected(ActionEvent event) {
+
+    }
+    
+    @FXML
+    void blueRadioButtonSelected(ActionEvent event) {
 
     }
 
@@ -70,12 +75,7 @@ public class PainterController {
     }
 
     @FXML
-    void greenRadioButtonSelected(ActionEvent event) {
-
-    }
-
-    @FXML
-    void largeRadioButtonSelected(ActionEvent event) {
+    void smallRadioButtonSelected(ActionEvent event) {
 
     }
 
@@ -83,19 +83,19 @@ public class PainterController {
     void mediumRadioButtonSelected(ActionEvent event) {
 
     }
-
+    
     @FXML
-    void redRadioButtonSelected(ActionEvent event) {
-
-    }
-
-    @FXML
-    void smallRadioButtonSelected(ActionEvent event) {
+    void largeRadioButtonSelected(ActionEvent event) {
 
     }
 
     @FXML
     void undoButtonPressed(ActionEvent event) {
+
+    }
+    
+    @FXML
+    void clearButtonPressed(ActionEvent event) {
 
     }
     
