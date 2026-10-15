@@ -53,26 +53,12 @@ public class PainterController {
         
         drawingAreaPane.getChildren().add(circle);
     }
-
-    @FXML
-    void blackRadioButtonSelected(ActionEvent event) {
-
-    }
-
-    @FXML
-    void redRadioButtonSelected(ActionEvent event) {
-
-    }
     
     @FXML
-    void greenRadioButtonSelected(ActionEvent event) {
+    void colorRadioButtonSelected(ActionEvent event) {
+        brushColor = (Color) colorToggleGroup.getSelectedToggle().getUserData();
+}    
 
-    }
-    
-    @FXML
-    void blueRadioButtonSelected(ActionEvent event) {
-
-    }
 
     @FXML
     void smallRadioButtonSelected(ActionEvent event) {
