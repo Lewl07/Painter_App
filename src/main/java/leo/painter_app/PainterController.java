@@ -7,6 +7,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
+import javafx.scene.shape.Circle;
 
 public class PainterController {
 
@@ -58,7 +59,14 @@ public class PainterController {
 
     @FXML
     void drawingAreaMouseDragged(MouseEvent event) {
-
+        Circle circle = new Circle(
+                event.getX(),
+                event.getY(),
+                radius.getRadius(),
+                brushColor
+        );
+        
+        drawingAreaPane.getChildren().add(circle);
     }
 
     @FXML
