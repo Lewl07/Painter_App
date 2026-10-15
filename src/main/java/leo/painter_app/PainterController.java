@@ -10,42 +10,22 @@ import javafx.scene.paint.Paint;
 
 public class PainterController {
 
-    @FXML
-    private RadioButton blackRadioButton;
-
-    @FXML
-    private RadioButton blueRadioButton;
-
-    @FXML
-    private Button clearButton;
-
-    @FXML
-    private ToggleGroup colorToggleGroup;
-
-    @FXML
-    private Pane drawingAreaPane;
-
-    @FXML
-    private RadioButton greenRadioButton;
-
-    @FXML
-    private RadioButton largeRadioButton;
-
-    @FXML
-    private RadioButton mediumRadioButton;
-
-    @FXML
-    private RadioButton redRadioButton;
-
-    @FXML
-    private ToggleGroup sizeToggleGroup;
-
-    @FXML
-    private RadioButton smallRadioButton;
-
-    @FXML
-    private Button undoButton;
+    @FXML private ToggleGroup colorToggleGroup;
+    @FXML private RadioButton blackRadioButton;
+    @FXML private RadioButton redRadioButton;
+    @FXML private RadioButton greenRadioButton;
+    @FXML private RadioButton blueRadioButton;
     
+    @FXML private ToggleGroup sizeToggleGroup;
+    @FXML private RadioButton smallRadioButton;
+    @FXML private RadioButton mediumRadioButton;
+    @FXML private RadioButton largeRadioButton;
+    
+    @FXML private Button undoButton;
+    @FXML private Button clearButton;
+    
+    @FXML private Pane drawingAreaPane;
+
     // instance variables for managing Painter state
     private PenSize radius = PenSize.MEDIUM;        // radius of circle
     private Paint brushColor = Color.BLACK;        // radius of circle
